@@ -1,0 +1,27 @@
+body{
+	background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(tower.jpg);
+	background-size: cover;
+	background-position: center;
+	float:left;
+	display: flex;
+	flex-direction:column; 
+	left: 28%;
+	top:5%;
+	position: fixed;
+	width:80%;
+}
+.login-box {
+	background: transparent;
+	padding: 100px;
+	opacity: 0.7;
+}
+.login-left {
+	background: #00aaff;
+	border:solid 1px;
+	box-shadow: 1px 1px 4px 1px rgba(0,0,50,0.5);
+}
+.login-right {
+	background: white;
+	opacity: 0.7;
+	box-shadow: 1px 1px 4px 1px rgba(0,0,50,0.5);
+}
